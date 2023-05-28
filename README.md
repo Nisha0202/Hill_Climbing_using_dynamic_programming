@@ -1,2 +1,3 @@
 # Hill_Climbing_using_dynamic_programming
 You will be given two values M and N denoting the number of rows and columns of the grid. Then you will have M lines of values where each line will have N values. Here the values lying in the i th line denote the values of the i th row of the grid. In such i th line, j th value denotes the danger value of grid cell (i,j).
+In the output, you need to print the minimum possible danger value for the climber to reach the top row. Outside of the bottom row means, he did not start climbing and outside of the top row means, he has finished climbing. The climber can not move right from any cells belonging to the rightmost column, similarly can not move left from the leftmost column, because it would bring death to him.
